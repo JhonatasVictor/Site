@@ -75,6 +75,7 @@ footer {
 }
 footer > a {
     text-decoration: none;
+    width: 92vw;
     color: white;
     border: 7px solid rgba(0, 0, 0, 0);
 }
@@ -95,7 +96,7 @@ iframe {
 .iframe > p {
     background-color: #340550;
     height: 30px;
-    width: 94vw;
+    width: 93vw;
     color: white;
  font-size: 1.5em;
  letter-spacing: 3px; 
