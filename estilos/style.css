@@ -8,7 +8,9 @@
 logo PHP: #9B20Es
   fonte de fundo do main: #F6BDFF
 */
-
+body {
+    height: 100vh;
+}
 header {
     background-color: #461563;
     height: 145px;
@@ -47,12 +49,12 @@ article > a {
     background-color: #461563;
 }
 div.img {
-    background-image: url(../imagens/pexels-realtoughcandycom-11035390.jpg);
+    background-image: url(../imagens/pexels-danny-meneses-943096.jpg);
     width: 97vw;
     height: 350px;
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: right center;
 }
 main > h1 {
     padding: 15px;
@@ -70,7 +72,7 @@ footer {
     text-align: center;
     border: 0px 5px 0px 5px;
     padding-top: -5px;
-    font-size: 18px;
+    font-size: 0.9em;
 
 }
 footer > a {
@@ -98,7 +100,7 @@ iframe {
     height: 30px;
     width: 93vw;
     color: white;
- font-size: 1.1em;
+ font-size: 1em;
  letter-spacing: 3px; 
  padding: 0px;  
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -111,8 +113,8 @@ iframe {
     padding: 10px;
 }
 #navegação:hover {
-    background-color: white;
-    color: black;
+    background-color: #5e2281;
+    color: white;
 }
 
 
