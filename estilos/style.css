@@ -1,4 +1,8 @@
 @charset "utf-8";
+@font-face {
+    font-family: 'BOLDER';
+    src: url('../Fontes/BOLDER.ttf') format('truetype');
+}
 
 * {
     margin: 0px;
@@ -58,7 +62,12 @@ div.img {
 }
 main > h1 {
     padding: 15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'BOLDER';
+    color: rgb(0, 0, 0);
+    background-color: #7323a17e;
+    border-radius: 0px 0px 8px 0px;
+    margin-bottom: 10px;
+
 }
 article {
     width: 94vw;
@@ -72,7 +81,7 @@ footer {
     text-align: left;
     border-radius: 0px 0px 5px 0px;
     padding-top: 0px;
-    font-size: 1em;
+    font-size: 0.7em;
     line-height: 1.9em;
 
 }
@@ -94,7 +103,7 @@ footer > a:hover {
     padding: 10px;
 }
 #navegação:hover {
-    background-color: #5e2281;
+    background-color:#461563;
     color: white;
 }
 img {
@@ -102,11 +111,15 @@ img {
     height: 30vh; 
     margin-bottom: -4px;
 }
+a > img:hover {
+    transition: 0.5s;
+    animation:infinite
+}
 #chamada {
 background-color: #461563;
 color: white;
 font-family:cursive;
-font-size: 1.4em;
+font-size: 1.5em;
 width: 100vw;
 border-radius: 0px 5px 0px 0px;
 line-height: 1.9em;
@@ -118,5 +131,6 @@ line-height: 1.9em;
     background-color: #5e2281;
     color: white;
     border: 5px solid rgba(137, 43, 226, 0);
+    transition: 0.2s;
 }
 
