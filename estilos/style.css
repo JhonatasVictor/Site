@@ -111,4 +111,12 @@ width: 100vw;
 border-radius: 0px 5px 0px 0px;
 line-height: 1.9em;
 }
+.LK {
+     text-decoration: none;
+}
+.LK:hover {
+    background-color: #5e2281;
+    color: white;
+    border: 5px solid rgba(137, 43, 226, 0);
+}
 
