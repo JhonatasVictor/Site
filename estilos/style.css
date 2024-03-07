@@ -50,7 +50,7 @@ article > a {
 }
 div.img {
     background-image: url(../imagens/pexels-danny-meneses-943096.jpg);
-    width: 97vw;
+    width: 100vw;
     height: 350px;
     background-size: cover;
     background-attachment: fixed;
@@ -67,7 +67,7 @@ article {
 footer {
     background-color: #340550;
     height: 35px; 
-    width: 96vw;  
+    width: 100vw;  
     color: white;
     text-align: left;
     border-radius: 0px 0px 5px 0px;
@@ -98,7 +98,7 @@ footer > a:hover {
     color: white;
 }
 img {
-    width: 96vw;
+    width: 100vw;
     height: 30vh; 
     margin-bottom: -4px;
 }
@@ -107,7 +107,7 @@ background-color: #461563;
 color: white;
 font-family:cursive;
 font-size: 1.4em;
-width: 96vw;
+width: 100vw;
 border-radius: 0px 5px 0px 0px;
 line-height: 1.9em;
 }
