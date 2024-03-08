@@ -7,6 +7,9 @@
     nav {
         display: block;
         padding-top: 20px;
+        font-weight: bolder;
+        font-size: 20px;
+
     }
     #navegação {
         display: none;
@@ -25,9 +28,6 @@
         border: 7px solid rgba(0, 0, 0, 0);
         
     }
-    main > h1 {
-    
-}
 }
 footer {
     height: 70px;
