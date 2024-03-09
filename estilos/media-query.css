@@ -1,37 +1,33 @@
 @charset "UTF-8";
 
-@media screen and (min-width:750px)  {
+@media screen and (min-width:750px) {
     body {
-        background-color: #d7dada;
-    }
-    nav {
-        display: block;
-        padding-top: 20px;
-        font-weight: bolder;
-        font-size: 20px;
-
+        background-color: rgba(130, 104, 145, 0.418);
+        width: 100vw;
+        height: 100vh;
     }
     #navegação {
         display: none;
     }
-    div.img {
-        background-image: url('../imagens/pexels-realtoughcandycom-11035390.jpg');
-        background-size: cover;
-        background-position: center center;
+    nav {
+        display: block;
+        padding-top: 25px;
     }
-    main > article {
-        width: 50vw;
-        text-align: center;
+    div.img {
+        background-image: url(../imagens/pexels-realtoughcandycom-11035390.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+    article {
         margin: auto;
-        background-color: white;
+        width: 50%;
         border-radius: 5px;
-        border: 7px solid rgba(0, 0, 0, 0);
-        
+        background-color: white;
+        border: 8px solid rgba(0, 0, 0, 0);
     }
 }
 footer {
     height: 70px;
-    line-height: 40px;
-    font-size: 25px;
-    font-weight: bolder;
+    font-size: 1.3em;
+    
 }
